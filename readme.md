@@ -1,4 +1,14 @@
-# Example Output
+# About
+
+An implementation of a linked list in C.
+
+Generates a series of nodes that contain a _value_ and a _pointer_ to a single child element.
+
+Once the nodes have been generated the list is traversed sequentially beginning with the root (i.e. first created) node and ending with the last.
+
+Once traversed, the program runs "cleanup" by traversing the list one last time and freeing the memory that was taken by each node.
+
+## Example Output
 
 ```bash
 PS F:\code\linked_list_c\build> ."F:/code/linked_list_c/build/main.exe"
@@ -16,3 +26,7 @@ Node 7 has value of 19
 Node 8 has value of 15
 Node 9 has value of 13
 ```
+
+# Todo
+
+[] - Traverse the linked list backwards
