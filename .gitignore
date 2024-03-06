@@ -1,0 +1,9 @@
+# editors
+*.swp
+*~
+.vscode
+
+# build
+/build*/
+/src/main
+/src/main.dSYM/
