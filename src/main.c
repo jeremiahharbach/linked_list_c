@@ -13,7 +13,7 @@ int main(void)
 {
 	int j = 4;
 	printf("int size = %d\n", j);
-	printf("pointer size = %lu\n", sizeof(int *));
+	printf("pointer size = %lu\n\n", sizeof(int *));
 
 	/* Create the root node */
 	struct node *root; 					// declare a pointer that marks the start of the linked list
